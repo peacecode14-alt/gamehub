@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>gamehub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo"><img src="logo.png" alt="gamehub"></div>
+
+<ul class="menu">
+
+<li><a href="index.html">Home</a></li>
+
+
+<li class="mega-parent">
+
+
+
+
+</div>
+
+</li>
+
+</ul>
+
+<div class="cart-icon" onclick="toggleCart()">
+
+🛒
+
+<div class="cart" id="cart">
+
+<h3>Your Cart</h3>
+
+<ul id="cart-list"></ul>
+
+<p>Total: $<span id="total">0</span></p>
+
+<button class="checkout" onclick="checkout()">Checkout</button>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+
+<section class="slider">
+
+<div class="slides">
+
+<div class="slide">
+<img src="leathal company.png">
+<h2>Summer Sale</h2>
+</div>
+
+<div class="slide">
+<img src="dead by daylight.png">
+<h2>Dead by Daylight</h2>
+</div>
+
+<div class="slide">
+<img src="silent hill f.png">
+<h2>Racing Games</h2>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="games">
+
+<div class="game">
+<img src="cyber city.png" alt="Cyber City">
+<h3>Cyber City</h3>
+<p>$29</p>
+<button onclick="addToCart('Cyber City',29)">Add</button>
+</div>
+
+<div class="game">
+<img src="warzone.png" alt="War Zone">
+<h3>War Zone</h3>
+<p>$49</p>
+<button onclick="addToCart('War Zone',49)">Add</button>
+</div>
+
+<div class="game">
+<img src="leathal company.png" alt="leathal company">
+<h3>leathal company</h3>
+<p>$19</p>
+<button onclick="addToCart('leathal company',19)">Add</button>
+</div>
+<div class="game">
+<img src="dead by daylight.png">
+<h3>Dead by Daylight</h3>
+<p>$19</p>
+<button onclick="addToCart('Dead by Daylight',19)">Add</button>
+</div>
+<div class="game">
+<img src="fc26 (2).png">
+<h3>FC 26</h3>
+<p>$99</p>
+<button onclick="addToCart('FC 26',99)">Add</button>
+</div>
+<div class="game">
+<img src="hogwarts legacy.png">
+<h3>Hogwarts Legacy</h3>
+<p>$40</p>
+<button onclick="addToCart('Hogwarts Legacy',40)">Add</button>
+</div>
+<div class="game">
+<img src="gta5.png">
+<h3>gta5</h3>
+<p>$66</p>
+<button onclick="addToCart('gta5',66)">Add</button>
+</div>
+<div class="game">
+<img src="peak.png">
+<h3>peak</h3>
+<p>$9.99</p>
+<button onclick="addToCart('peak',9.99)">Add</button>
+</div>
+<div class="game">
+<img src="repo.png">
+<h3>repo</h3>
+<p>$20</p>
+<button onclick="addToCart('repo',20)">Add</button>
+</div>
+<div class="game">
+<img src="schedule.png">
+<h3>schedule 1</h3>
+<p>$19</p>
+<button onclick="addToCart('schedule 1',19)">Add</button>
+</div>
+<div class="game">
+<img src="phasmophopia.png">
+<h3>Phasmophobia</h3>
+<p>$52.32</p>
+<button onclick="addToCart('Phasmophobia',52.32)">Add</button>
+</div>
+<div class="game">
+<img src="nightmare.png">
+<h3>little nightmares</h3>
+<p>$30</p>
+<button onclick="addToCart('little nightmares',30)">Add</button>
+</div>
+<div class="game">
+<img src="battlefield.png">
+<h3>battlefield 6</h3>
+<p>$33</p>
+<button onclick="addToCart('battlefield 6',33)">Add</button>
+</div>
+<div class="game">
+<img src="mine.png">
+<h3>minecraft</h3>
+<p>$4</p>
+<button onclick="addToCart('minecraft',4)">Add</button>
+</div>
+<div class="game">
+<img src="silent hill f.png">
+<h3>silent hill f</h3>
+<p>$50</p>
+<button onclick="addToCart('silent hill f',50)">Add</button>
+</div>
+<div class="game">
+<img src="rivals.png">
+<h3>rivals</h3>
+<p>$19</p>
+<button onclick="addToCart('rivals',19)">Add</button>
+</div>
+
+
+
+</section>
+<footer class="site-footer">
+
+<div class="footer-content">
+
+<div class="footer-section">
+
+
+
+</div>
+
+
+
+<div class="footer-content">
+
+<div class="footer-section social">
+<div class="footer-section">
+
+<h3>Contact</h3>
+<p>Email: support@gamehub.com</p>
+<p>Phone: +20 123 456 789</p>
+
+</div>
+<h3>Follow Us</h3>
+
+<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+<a href="https://github.com/" target="_blank"></a>
+<a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin" data--h-bstatus="0OBSERVED"></i></a>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+<div class="footer-bottom">
+<p>© All rights reserved peace code.</p>
+</div>
+
+</footer>
+
+
+<script src="cart.js"></script>
+
+</body>
+</html>
